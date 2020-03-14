@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.column {
+  width: 100%;
+}
+.funtion_car {
+  margin-left: 2%;
+  height: 50px;
+  width: 50px;
+}
+.img_my_car {
+  height: 250px;
+  width: 100%;
+  justify-content: center;
+}
+.img_my_car_item_map {
+  height: 250px;
+  width: 100%;
+  justify-content: center;
+}
+.title_my_car {
+  font-weight: bold;
+  font-size: 30px;
+}
+.next_my_car {
+  font-size: 20px;
+  color: green;
+}
+.next_my_car2 {
+  font-size: 20px;
+  color: blue;
+}
+.img_my_car_rod {
+  height: 150px;
+  width: 50px;
+  justify-content: center;
+}
+
+.img_my_car_item {
+  height: 50px;
+  width: 50px;
+  justify-content: center;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
